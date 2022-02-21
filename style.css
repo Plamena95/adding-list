@@ -1,0 +1,63 @@
+.button button{
+    height: 37px; 
+    padding: 0;
+    background: red;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 15%;
+    font-size: 12px;
+}
+.actions{
+    display: flex;
+    justify-content: end;
+}
+.remove-item button{
+    background-color: #ffeb00;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding: 5px 10px;
+}
+.add-item button{
+    background-color: #00cad0;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+}
+.print button{
+    background-color: #46e044;
+    border: none;
+    border-radius:0 5px 5px 0;
+    padding: 5px 10px;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.numberic{
+    display: flex;
+    align-items: center;
+}
+.result{
+    display: flex;
+    justify-content: start;
+    font-weight: bold;
+    border-bottom: 2px solid lightgray;
+    padding: 10px 0;
+    border-top: 2px solid lightgray;
+}
+.result-content-number{
+    font-weight: bold;
+}
+.result-content{
+    display: flex;
+    justify-content: start;
+    border-bottom: 2px solid lightgray;
+    padding: 10px 0;
+    border-top: 2px solid lightgray;
+}
+.ui-draggable{
+    position: relative;
+    left: 0;
+    top: 0;
+}
